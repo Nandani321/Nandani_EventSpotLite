@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Attendee from './Attendee';
 import axios from 'axios';
 import { APP_URL } from '../util';
-import EventHostingSkeleton from '../Loading/EventHostingSkeleton';
+import EventHostingSkeleton from '../EventHostingSkeleton';
 
 function Attendees({ setShowAttendees, hostEventId, loading, setLoading }) {
     const [tickets, setTickets] = useState([]);
