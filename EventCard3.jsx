@@ -1,5 +1,5 @@
 import React from "react";
-import EventCard2Skeleton from "../Loading/EventCard2Skeleton";
+import EventCard2Skeleton from "../EventCard2Skeleton";
 
 function EventCard3({
   event,
