@@ -2,11 +2,11 @@ import React, { useState, useEffect, useRef } from "react";
 import { IoLocation } from "react-icons/io5";
 import { CiCalendarDate } from "react-icons/ci";
 import { IoPersonSharp } from "react-icons/io5";
-import EventPublicSkeleton from "../Loading/EventPublicSkeleton";
+import EventPublicSkeleton from "../EventPublicSkeleton";
 import { APP_URL } from "../util";
 import { useNavigate } from "react-router-dom";
 import Feedback from "./Feedbacks";
-import CommentsBox from "../User/CommentsBox";
+import CommentsBox from "../CommentsBox";
 
 function EventPublic({ eventId, setShowFeedbacks, showFeedbacks }) {
   const [event, setEvent] = useState(null);
