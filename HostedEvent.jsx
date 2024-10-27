@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 import { APP_URL } from "../util";
-import EventCard4 from "../Event/EventCard4";
+import EventCard4 from "../EventCard4";
 
 function HostedEvent() {
   const [events, setEvents] = useState([]);
