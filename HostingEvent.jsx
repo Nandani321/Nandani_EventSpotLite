@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
-import EventCard2 from "../Event/EventCard2";
-import EventHosting from "../Event/EventHosting";
+import EventCard2 from "../EventCard2";
+import EventHosting from "../EventHosting";
 import { APP_URL } from "../util";
-import EventCard3 from "../Event/EventCard3";
-import Attendees from "../User/Attendees";
+import EventCard3 from "../EventCard3";
+import Attendees from "../Attendees";
 import { div } from "framer-motion/client";
-import EventEdit from "../Event/EventEdit";
+import EventEdit from "../EventEdit";
 
 function HostingEvent() {
   const [events, setEvents] = useState([]);
