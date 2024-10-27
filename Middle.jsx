@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import EventCard from "../Event/EventCard";
+import EventCard from "../EventCard";
 import { useNavigate } from "react-router-dom";
-import Category from "../Event/Category";
+import Category from "../Category";
 import { APP_URL } from "../util";
 import axios from "axios";
 
