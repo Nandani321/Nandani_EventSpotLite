@@ -3,8 +3,8 @@ import { IoLocation } from "react-icons/io5";
 import { CiCalendarDate } from "react-icons/ci";
 import { IoPersonSharp } from "react-icons/io5";
 import { APP_URL } from "../util";
-import Attendees from "../User/Attendees";
-import EventHostingSkeleton from "../Loading/EventHostingSkeleton";
+import Attendees from "../Attendees";
+import EventHostingSkeleton from "../EventHostingSkeleton";
 
 function EventHosting({ loading, setLoading, hostEventId, setShowAttendees }) {
   const [event, setEvent] = useState(null);
