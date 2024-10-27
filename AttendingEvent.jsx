@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import EventAttending from "../Event/EventAttending";
+import EventAttending from "../EventAttending";
 import axios from "axios";
 import { APP_URL } from "../util";
 import { motion } from "framer-motion";
