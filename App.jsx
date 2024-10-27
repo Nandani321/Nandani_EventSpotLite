@@ -6,16 +6,16 @@ import {
   useLocation,
   Navigate,
 } from "react-router-dom";
-import Navbar from "./componets/Layout/Navbar";
-import Footer from "./componets/Layout/Footer";
-import EventDiscovery from "./componets/EventDiscovery/EventDiscovery";
-import Home from "./componets/Home/Home";
-import Register from "./componets/Auth/Register";
-import Login from "./componets/Auth/Login";
-import Dashboard from "./componets/Dashboard/Dashboard";
-import PaymentForm from "./componets/Payment/PaymentForm";
-import ChatGroup from "./componets/ChatGroup/ChatGroup";
-import OauthCallback from "./componets/Auth/OauthCallback";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import EventDiscovery from "./EventDiscovery";
+import Home from "./Home";
+import Register from "./Register";
+import Login from "./Login";
+import Dashboard from "./Dashboard";
+import PaymentForm from "./PaymentForm";
+import ChatGroup from "./ChatGroup";
+import OauthCallback from "./OauthCallback";
 
 function Layout() {
   const location = useLocation();
