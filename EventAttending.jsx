@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { IoLocation } from "react-icons/io5";
 import { CiCalendarDate } from "react-icons/ci";
 import { IoPersonSharp } from "react-icons/io5";
-import FeedBackForm from "../User/FeedBackForm";
+import FeedBackForm from "../FeedBackForm";
 import axios from "axios";
 import { APP_URL } from "../util";
 
