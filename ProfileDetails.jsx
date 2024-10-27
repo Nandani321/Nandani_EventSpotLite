@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import UserData from "../User/UserData";
+import UserData from "../UserData";
 
 function ProfileDetails() {
   return (
