@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-import EventCard2Skeleton from "../Loading/EventCard2Skeleton";
+import EventCard2Skeleton from "../EventCard2Skeleton";
 
 function EventCard2({ setShowFeedbacks, event, handleEventId, loading, titleLimit = 100, totalLimit = 200 }) {
   const navigate = useNavigate(); // Initialize navigate
