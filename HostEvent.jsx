@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { APP_URL } from "../util";
 import { useNavigate } from "react-router-dom";
-import Success from "../assets/Success";
+import Success from "../Success";
 
 const categories = [
   "TRAVEL",
