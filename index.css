@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom scrollbar for WebKit browsers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px; /* Width of the vertical scrollbar */
+  height: 1px; /* Height of the horizontal scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; 
+  color: transparent;
+  /* Background color of the track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ef4444; /* Color of the scroll thumb */
+  border-radius: 4px; /* Rounded corners of the scroll thumb */
+  transition: background-color 0.1s ease; /* Quick transition on thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #ef4444; /* Color of the scroll thumb on hover */
+}
+
+.custom-scrollbarEvent::-webkit-scrollbar {
+  width: 5px; /* Width of the vertical scrollbar */
+  height: 5px; /* Height of the horizontal scrollbar */
+}
+.custom-scrollbar1::-webkit-scrollbar {
+  width: 0px; /* Width of the vertical scrollbar */
+  height: 0px; /* Height of the horizontal scrollbar */
+}
