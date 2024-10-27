@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
-import EventCard2 from "../Event/EventCard2";
-import EventPublic from "../Event/EventPublic";
+import EventCard2 from "../EventCard2";
+import EventPublic from "../EventPublic";
 import { useLocation, useNavigate } from 'react-router-dom';
-import EventCard2Skeleton from "../Loading/EventCard2Skeleton";
+import EventCard2Skeleton from "../EventCard2Skeleton";
 import { APP_URL } from "../util";
 import axios from "axios";
 
