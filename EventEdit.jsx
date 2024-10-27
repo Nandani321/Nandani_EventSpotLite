@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { APP_URL } from "../util";
-import Success from "../assets/Success";
-import Update from "../assets/Updated";
+import Success from "../Success";
+import Update from "../Updated";
 
 const categories = [
   "TRAVEL",
